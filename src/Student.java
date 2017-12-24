@@ -57,13 +57,13 @@ public class Student {
 			
 			Student average[]=new Student[studentNumber]; //Set student number to array. Now array has that number of students.
 			
-			for(int j=0; j<studentNumber;j++) {  
+			for(int j=0; j<studentNumber; j++) {  
+				
 				average[j]=new Student();
 		
 			}
 			
 			for( int i=0; i<studentNumber; i++) {  
-				
 				
 				System.out.println("Enter Student #" + (i+1) + "'s name: ");
 				average[i].setName(sc.next().toString());
@@ -104,4 +104,3 @@ public class Student {
 		}
 	}
 
-//   if we say studentNumber=n then the big O notation of this problem is O(n x logn) .
