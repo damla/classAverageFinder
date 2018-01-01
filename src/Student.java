@@ -30,7 +30,7 @@ public class Student {
 		this.ID = ID;
 	}
 	
-	public Student() {//default constructor
+	public Student() { //default constructor
 	}
 	
 	public Student(String name, double GPA, int ID) { //constructor with fields
@@ -96,7 +96,7 @@ public class Student {
       
 		Scanner sc=new Scanner(System.in);
        
-		System.out.println("Please enter the student number in the class: ");  //setting student number
+		System.out.println("Please enter the student number in the class: "); //setting student number
 		int a=sc.nextInt();
 				
 		calculateAverage(a); //enter number of student here
